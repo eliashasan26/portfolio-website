@@ -2,14 +2,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-/* nav related styles */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .site-title {
     color: #181818;
     font-family: Open Sans;
@@ -22,9 +14,16 @@ nav {
 .text-primary {
     color: #FD6E0A;
 }
-
-nav>ul {
+/* nav related styles */
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -42,7 +41,19 @@ nav a {
     background: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 20px
+    font-size: 20px;
     font-weight: 700;
-    padding: 20px 35px;
+    padding: 18px 35px;
+}
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .pro-pic{
+    width: 500px;
+    height: 600px;
 }
