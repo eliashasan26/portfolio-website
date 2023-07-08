@@ -100,20 +100,25 @@ nav a {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-/* about section styles */
-.about {
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0px;
-}
-
 .about-info-container{
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
+.info-title{
+    margin-bottom: 0px;
+}
+.info-description{
+    margin-top: 5px;
+}
+/* about section styles */
+.about {
+    padding: 75px;
+    border-radius: 50px;
+    background: #FFF8F3;
+    margin: 90px 50px;
+}
+
 .sec-title {
     color: #181818;
     text-align: center;
