@@ -2,6 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .site-title {
     color: #181818;
     font-family: Open Sans;
@@ -14,6 +15,7 @@ body {
 .text-primary {
     color: #FD6E0A;
 }
+
 /* nav related styles */
 nav {
     display: flex;
@@ -21,7 +23,8 @@ nav {
     align-items: center;
     margin: 0 150px;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -36,7 +39,7 @@ nav a {
     color: #474747;
 }
 
-.button-primary{
+.button-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -45,15 +48,79 @@ nav a {
     font-weight: 700;
     padding: 18px 35px;
 }
+
 /* header related style */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner .pro-pic{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .pro-pic {
     width: 500px;
     height: 600px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main content */
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    margin: 130px 0px;
+}
+
+.sec-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sec-description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
